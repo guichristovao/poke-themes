@@ -1,3 +1,4 @@
 rootProject.name = "poke-themes"
 include ':app'
 include ':theme:base'
+include ':theme:brand:blue'
