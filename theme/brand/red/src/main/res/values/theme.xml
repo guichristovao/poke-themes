@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="PokemonRedTheme" parent="PokemonBaseTheme">
+        <item name="colorPrimary">#f57c00</item>
+        <item name="colorSecondary">#e64a19</item>
+        <item name="colorTertiary">#00acc1</item>
+        <item name="colorBackground">#fff3e0</item>
+        <item name="colorBackgroundVariant">#ac1900</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorOnTertiary">#000000</item>
+        <item name="colorOnBackground">#000000</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+
+        <item name="pokeImage">@drawable/red</item>
+    </style>
+</resources>
