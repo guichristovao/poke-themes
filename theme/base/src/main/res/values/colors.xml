@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
     <attr name="colorPrimaryVariant" format="color" />
     <attr name="colorOnPrimary" format="color" />
 

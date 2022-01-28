@@ -3,7 +3,8 @@
 
     <style name="PokemonRedTheme" parent="PokemonBaseTheme">
         <item name="colorPrimary">#c62828</item>
-        <item name="colorPrimaryVariant">#8e0000</item>
+        <item name="colorPrimaryDark">#8e0000</item>
+        <item name="colorPrimaryVariant">#ff6f00</item>
         <item name="colorOnPrimary">#ffffff</item>
 
         <item name="colorSecondary">#ffbd45</item>

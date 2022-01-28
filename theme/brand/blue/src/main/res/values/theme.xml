@@ -3,7 +3,8 @@
 
     <style name="PokemonBlueTheme" parent="PokemonBaseTheme">
         <item name="colorPrimary">#1565c0</item>
-        <item name="colorPrimaryVariant">#003c8f</item>
+        <item name="colorPrimaryDark">#003c8f</item>
+        <item name="colorPrimaryVariant">#03a9f4</item>
         <item name="colorOnPrimary">#ffffff</item>
 
         <item name="colorSecondary">#ffe0b2</item>

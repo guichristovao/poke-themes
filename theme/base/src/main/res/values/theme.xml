@@ -4,7 +4,7 @@
     <style name="PokemonParentTheme" parent="Theme.MaterialComponents" />
 
     <style name="PokemonBaseTheme" parent="PokemonParentTheme">
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryDark</item>
         <item name="android:colorBackground" tools:targetApi="l">?attr/colorBackground</item>
 
         <item name="colorSurface">?attr/colorPrimary</item>

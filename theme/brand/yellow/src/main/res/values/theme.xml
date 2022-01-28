@@ -3,7 +3,8 @@
 
     <style name="PokemonYellowTheme" parent="PokemonBaseTheme">
         <item name="colorPrimary">#ffc107</item>
-        <item name="colorPrimaryVariant">#c79100</item>
+        <item name="colorPrimaryDark">#c79100</item>
+        <item name="colorPrimaryVariant">#ffd54f</item>
         <item name="colorOnPrimary">#000000</item>
 
         <item name="colorSecondary">#d32f2f</item>
