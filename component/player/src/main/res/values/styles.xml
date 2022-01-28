@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PlayerText">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="PlayerText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="PlayerText.Subtitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PlayerButton">
+        <item name="android:layout_width">?attr/sizeIcon</item>
+        <item name="android:layout_height">?attr/sizeIcon</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="tint">?attr/colorSecondary</item>
+    </style>
+</resources>
