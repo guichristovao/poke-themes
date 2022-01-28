@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PokemonGreenTheme" parent="PokemonBaseTheme">
+        <item name="colorPrimary">#2e7d32</item>
+        <item name="colorPrimaryVariant">#005005</item>
+        <item name="colorOnPrimary">#ffffff</item>
+
+        <item name="colorSecondary">#ffa4a2</item>
+        <item name="colorSecondaryVariant">#ffeb3b</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="colorBackground">#e8f5e9</item>
+        <item name="colorOnBackground">#000000</item>
+
+        <item name="pokeImage">@drawable/green</item>
+    </style>
+</resources>
