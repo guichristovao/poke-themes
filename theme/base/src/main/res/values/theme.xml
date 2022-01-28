@@ -14,9 +14,14 @@
         <item name="spacingMedium">24dp</item>
         <item name="spacingBig">32dp</item>
 
+        <item name="textSizeSmall">16sp</item>
+        <item name="textSizeMedium">20sp</item>
+
         <item name="radiusSmall">16dp</item>
         <item name="radiusMedium">32dp</item>
 
         <item name="sizeIcon">48dp</item>
+
+        <item name="angleGradient">270</item>
     </style>
 </resources>
