@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <style name="PokemonBlueTheme" parent="PokemonBaseTheme">
-        <item name="colorPrimary">#1e88e5</item>
-        <item name="colorSecondary">#c17900</item>
-        <item name="colorTertiary">#fff59d</item>fff59d
-        <item name="colorBackground">#e3f2fd</item>
-        <item name="colorBackgroundVariant">#002171</item>
-        <item name="colorOnPrimary">#000000</item>
-        <item name="colorOnSecondary">#000000</item>
-        <item name="colorOnTertiary">#000000</item>
-        <item name="colorOnBackground">#000000</item>
+        <item name="colorPrimary">#1565c0</item>
+        <item name="colorPrimaryVariant">#003c8f</item>
+        <item name="colorOnPrimary">#ffffff</item>
 
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <item name="colorSecondary">#ffe0b2</item>
+        <item name="colorSecondaryVariant">#4b2c20</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="colorBackground">#e3f2fd</item>
+        <item name="colorOnBackground">#000000</item>
 
         <item name="pokeImage">@drawable/blue</item>
     </style>

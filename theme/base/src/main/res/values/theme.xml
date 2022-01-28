@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="PokemonParentTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar" />
 
-    <style name="PokemonBaseTheme" parent="PokemonParentTheme" />
+    <style name="PokemonBaseTheme" parent="PokemonParentTheme">
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground" tools:targetApi="l">?attr/colorBackground</item>
+
+        <item name="colorSurface">?attr/colorPrimary</item>
+        <item name="colorOnSurface">?attr/colorOnPrimary</item>
+
+        <item name="spacingSmall">16dp</item>
+        <item name="spacingMedium">24dp</item>
+        <item name="spacingBig">32dp</item>
+
+        <item name="radiusSmall">16dp</item>
+        <item name="radiusMedium">32dp</item>
+
+        <item name="sizeIcon">48dp</item>
+    </style>
 </resources>

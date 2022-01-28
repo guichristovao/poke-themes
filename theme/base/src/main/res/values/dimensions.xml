@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="spacingSmall" format="dimension" />
+    <attr name="spacingMedium" format="dimension" />
+    <attr name="spacingBig" format="dimension" />
+
+    <attr name="radiusSmall" format="dimension" />
+    <attr name="radiusMedium" format="dimension" />
+
+    <attr name="sizeIcon" format="dimension" />
+</resources>
