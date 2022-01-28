@@ -1,4 +1,4 @@
 <resources>
 
-    <style name="Theme.PokeThemes" parent="PokemonBlueTheme" />
+    <style name="Theme.PokeThemes" parent="PokemonRedTheme" />
 </resources>
