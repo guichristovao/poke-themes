@@ -40,7 +40,7 @@ dependencies {
     compileOnly(project(":theme:brand:red"))
     compileOnly(project(":theme:brand:yellow"))
 
-    implementation("com.google.android.material:material:1.5.0")
+    implementation("com.google.android.material:material:1.4.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.3")
 
     testImplementation("junit:junit:4.13.2")
