@@ -29,9 +29,17 @@ class PlayerViewTest(
 //        renderExtensions = setOf(AccessibilityRenderExtension())
     )
 
+    private fun getPlayerView() = PlayerView(paparazzi.context)
+
     @Test
     fun default() {
-        val view = paparazzi.inflate<PlayerView>(R.layout.launch).apply {
+        val view = getPlayerView()
+        paparazzi.snapshot(view)
+    }
+
+    @Test
+    fun withSongName() {
+        val view = getPlayerView().apply {
             setSongName("Song name")
         }
         paparazzi.snapshot(view)
