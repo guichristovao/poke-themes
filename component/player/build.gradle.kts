@@ -35,10 +35,10 @@ android {
 dependencies {
     implementation(project(":theme:base"))
 
-    compileOnly(project(":theme:brand:blue"))
-    compileOnly(project(":theme:brand:green"))
-    compileOnly(project(":theme:brand:red"))
-    compileOnly(project(":theme:brand:yellow"))
+    implementation(project(":theme:brand:red"))
+    implementation(project(":theme:brand:blue"))
+    implementation(project(":theme:brand:green"))
+    implementation(project(":theme:brand:yellow"))
 
     implementation("com.google.android.material:material:1.4.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.3")
