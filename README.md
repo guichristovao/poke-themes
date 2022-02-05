@@ -1,4 +1,4 @@
-<img src="screenshots/preview.gif"/>
+<img src="screenshots/preview.gif" alt="Banner with the project name and the following description: An Android project to showcase a multi-brand design system. It also shows an animated preview of a sample app."/>
 
 # Table of contents
 1. [Introduction](#introduction)
@@ -35,7 +35,7 @@ Since the first generation of games were released, they always used the idea of 
 ```
 
 # Architecture
-![poke-themes Architecture](https://user-images.githubusercontent.com/35379633/152466454-28843616-3743-4874-9e6e-7f9d1844f28d.gif)
+<img src="https://user-images.githubusercontent.com/35379633/152466454-28843616-3743-4874-9e6e-7f9d1844f28d.gif" alt="Project's architecture flowchart"/>
 
 For the purpose of creating an actual sample, the project presents just one **android-application** module, which implements all four themes.
 
@@ -60,7 +60,7 @@ These attributes are like an interface: it doesn't have a value on its own, but 
 > Note: Besides your custom ones, you can also use attributes from a Material Theme, as can be seen [here](https://material.io/develop/android/docs/getting-started) and [here](https://material.io/blog/android-material-theme-color).
 
 ## theme:brand:<_name_>
-<img align="right" src="https://user-images.githubusercontent.com/35379633/152628892-6b548372-e428-4aa8-9eb5-4720db310305.gif" alt="A preview of a custom view changing appearance based on its theme" width="282" height="483" style="display: inline; float: right"/>
+<img align="right" src="https://user-images.githubusercontent.com/35379633/152628892-6b548372-e428-4aa8-9eb5-4720db310305.gif" alt="Preview of a custom view changing its appearance from red to blue based on the selected theme" width="280" style="display: inline; float: right"/>
 
 Implements the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) declared in the [theme:base](#themebase) module.</br>
 Each theme may have its own values, based on the design identity of given variant.
@@ -86,7 +86,7 @@ Creates an [Android custom view](https://developer.android.com/guide/topics/ui/c
 # Testing
 Since one of the goals of this project was to try [Paparazzi](https://github.com/cashapp/paparazzi), only snapshot testing was explored.
 
-<img src="https://user-images.githubusercontent.com/35379633/152630899-937149dc-f49e-4aa8-90c4-82245be784fd.gif" alt="Snapshot testing comparison" width="150"/>
+<img src="https://user-images.githubusercontent.com/35379633/152630899-937149dc-f49e-4aa8-90c4-82245be784fd.gif" alt="Preview of a snapshot testing result, showing the difference between the expected and actual images." width="150"/>
 
 Other ways of testing such as [Espresso (as can be seen here)](https://developer.android.com/training/testing/instrumented-tests) should also do the job.
 
