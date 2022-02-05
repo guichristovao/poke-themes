@@ -40,9 +40,9 @@ dependencies {
     implementation(project(":theme:brand:green"))
     implementation(project(":theme:brand:yellow"))
 
-    implementation("com.google.android.material:material:1.4.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
+    implementation(Libs.Google.material)
+    implementation(Libs.AndroidX.constraintLayout)
 
-    testImplementation("junit:junit:4.13.2")
-    testImplementation("com.google.testparameterinjector:test-parameter-injector:1.8")
+    testImplementation(Libs.JUnit.junit)
+    testImplementation(Libs.Google.testParameterInjector)
 }

@@ -32,5 +32,5 @@ android {
 }
 
 dependencies {
-    implementation("com.google.android.material:material:1.4.0")
+    implementation(Libs.Google.material)
 }
