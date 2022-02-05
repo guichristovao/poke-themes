@@ -1,13 +1,13 @@
 <img src="screenshots/preview.gif"/>
 
-## Table of contents
+# Table of contents
 1. [Introduction](#introduction)
 2. [Structure](#structure)
 3. [Architecture](#architecture)
 4. [Implementation](#implementation)
 5. [Roadmap](#roadmap)
 
-## Introduction
+# Introduction
 This is an Android showcase project based on Pokémon.
 
 The main goals of this project were to:
@@ -17,7 +17,7 @@ The main goals of this project were to:
 I chose to use Pokémon as an example because it was the perfect case of a multi-brand theme usage.</br>
 Since the first generation of games were released, they always used the idea of creating basically one base game, but with different themed variants for the game's boxes and cartridges, as well as some other contents.
 
-## Structure
+# Structure
 ```
 .
 ├── app                   # Project sample (android-application)
@@ -33,29 +33,34 @@ Since the first generation of games were released, they always used the idea of 
         └── yellow
 ```
 
-## Architecture
+# Architecture
 ![poke-themes Architecture](https://user-images.githubusercontent.com/35379633/152466454-28843616-3743-4874-9e6e-7f9d1844f28d.gif)
 
 For the purpose of creating an actual sample, the project presents just one **android-application** module, which implements all four themes.
 
 In the image above, it is presented a scenario where multiple apps were meant to be created, each one of them with its respective theme. In a real project, this would most likely be the case.
 
-## Implementation
+# Implementation
 This is a multi-module project and each piece have its own responsibility.
 
-### theme:base
-<img align="right" src="https://user-images.githubusercontent.com/35379633/152628892-6b548372-e428-4aa8-9eb5-4720db310305.gif" alt="A preview of a custom view changing appearance based on its theme" width="282" height="483" style="display: inline; float: right"/>
-
+## theme:base
 Defines the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) to be implemented by the [theme:brand](#themebrandname) modules, as well as its base [Android theme](https://developer.android.com/guide/topics/ui/look-and-feel/themes).</br>
 These attributes are like an interface: it doesn't have a value on its own, but defines a sort of contract to be implemented by whoever uses it.
 
 ```xml
 <resources>
+    <!-- from Material -->
     <attr name="colorPrimary" format="color" />
+    <!-- custom attr -->
+    <attr name="pokeImage" format="reference" />
 </resources>
 ```
 
-### theme:brand:<_name_>
+> Note: Besides your custom ones, you can also use attributes from a Material Theme, as can be seen [here](https://material.io/develop/android/docs/getting-started) and [here](https://material.io/blog/android-material-theme-color).
+
+## theme:brand:<_name_>
+<img align="right" src="https://user-images.githubusercontent.com/35379633/152628892-6b548372-e428-4aa8-9eb5-4720db310305.gif" alt="A preview of a custom view changing appearance based on its theme" width="282" height="483" style="display: inline; float: right"/>
+
 Implements the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) declared in the [theme:base](#themebase) module.</br>
 Each theme may have its own values, based on the design identity of given variant.
 
@@ -67,7 +72,7 @@ Each theme may have its own values, based on the design identity of given varian
 </resources>
 ```
 
-### component:<_name_>
+## component:<_name_>
 Creates an [Android custom view](https://developer.android.com/guide/topics/ui/custom-components). Since this view is meant to be part of a multi-brand design system, it should almost always use the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) from the [theme:base](#themebase), rather than setting hardcoded values.
 
 ```xml
@@ -77,5 +82,5 @@ Creates an [Android custom view](https://developer.android.com/guide/topics/ui/c
     android:startColor="?attr/colorPrimaryVariant" />
 ```
 
-## Roadmap
+# Roadmap
 - Add [Compose](https://developer.android.com/jetpack/compose).
