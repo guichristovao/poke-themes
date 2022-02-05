@@ -5,7 +5,8 @@
 2. [Structure](#structure)
 3. [Architecture](#architecture)
 4. [Implementation](#implementation)
-5. [Roadmap](#roadmap)
+5. [Testing](#testing)
+6. [Roadmap](#roadmap)
 
 # Introduction
 This is an Android showcase project based on Pokémon.
@@ -81,6 +82,13 @@ Creates an [Android custom view](https://developer.android.com/guide/topics/ui/c
     android:endColor="?attr/colorPrimary"
     android:startColor="?attr/colorPrimaryVariant" />
 ```
+
+# Testing
+Since one of the goals of this project was to try [Paparazzi](https://github.com/cashapp/paparazzi), only snapshot testing was explored.
+
+<img src="https://user-images.githubusercontent.com/35379633/152630899-937149dc-f49e-4aa8-90c4-82245be784fd.gif" alt="Snapshot testing comparison" width="150"/>
+
+Other ways of testing such as [Espresso (as can be seen here)](https://developer.android.com/training/testing/instrumented-tests) should also do the job.
 
 # Roadmap
 - Add [Compose](https://developer.android.com/jetpack/compose).
