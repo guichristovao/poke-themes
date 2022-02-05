@@ -46,7 +46,7 @@ This is a multi-module project and each piece have its own responsibility.
 ### theme:base
 <img align="right" src="https://user-images.githubusercontent.com/35379633/152628892-6b548372-e428-4aa8-9eb5-4720db310305.gif" alt="A preview of a custom view changing appearance based on its theme" width="282" height="483" style="display: inline; float: right"/>
 
-Defines the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) to be implemented by the [theme:brand](#theme-brand) modules, as well as its base [Android theme](https://developer.android.com/guide/topics/ui/look-and-feel/themes).</br>
+Defines the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) to be implemented by the [theme:brand](#themebrandname) modules, as well as its base [Android theme](https://developer.android.com/guide/topics/ui/look-and-feel/themes).</br>
 These attributes are like an interface: it doesn't have a value on its own, but defines a sort of contract to be implemented by whoever uses it.
 
 ```xml
@@ -56,7 +56,7 @@ These attributes are like an interface: it doesn't have a value on its own, but 
 ```
 
 ### theme:brand:<_name_>
-Implements the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) declared in the [theme:base](#theme-base) module.</br>
+Implements the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) declared in the [theme:base](#themebase) module.</br>
 Each theme may have its own values, based on the design identity of given variant.
 
 ```xml
@@ -68,7 +68,7 @@ Each theme may have its own values, based on the design identity of given varian
 ```
 
 ### component:<_name_>
-Creates an [Android custom view](https://developer.android.com/guide/topics/ui/custom-components). Since this view is meant to be part of a multi-brand design system, it should almost always use the [custom attributes] from the [theme:base](#theme-base), rather than setting hardcoded values.
+Creates an [Android custom view](https://developer.android.com/guide/topics/ui/custom-components). Since this view is meant to be part of a multi-brand design system, it should almost always use the [custom attributes](https://developer.android.com/training/custom-views/create-view#customattr) from the [theme:base](#themebase), rather than setting hardcoded values.
 
 ```xml
 <gradient
