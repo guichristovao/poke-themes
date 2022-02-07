@@ -92,3 +92,4 @@ Other ways of testing such as [Espresso (as can be seen here)](https://developer
 
 # Roadmap
 - Add [Compose](https://developer.android.com/jetpack/compose).
+- Add [GitHub Actions](https://github.com/features/actions).
