@@ -1,4 +1,4 @@
-<img src="screenshots/preview.gif" alt="Banner with the project name and the following description: An Android project to showcase a multi-brand design system. It also shows an animated preview of a sample app."/>
+<img src="https://user-images.githubusercontent.com/35379633/152901416-1f8cf4f0-45ba-44e0-973d-91dc64e463f6.gif" alt="Banner with the project name and the following description: An Android project to showcase a multi-brand design system. It also shows an animated preview of a sample app."/>
 
 # Table of contents
 1. [Introduction](#introduction)
