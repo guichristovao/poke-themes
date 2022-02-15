@@ -35,7 +35,7 @@ Since the first generation of games were released, they always used the idea of 
 ```
 
 # Architecture
-<img src="https://user-images.githubusercontent.com/35379633/152466454-28843616-3743-4874-9e6e-7f9d1844f28d.gif" alt="Project's architecture flowchart"/>
+<img src="https://user-images.githubusercontent.com/35379633/152466454-28843616-3743-4874-9e6e-7f9d1844f28d.gif" alt="Project's architecture diagram"/>
 
 For the purpose of creating an actual sample, the project presents just one **android-application** module, which implements all four themes.
 
@@ -88,7 +88,7 @@ Since one of the goals of this project was to try [Paparazzi](https://github.com
 
 <img src="https://user-images.githubusercontent.com/35379633/152630899-937149dc-f49e-4aa8-90c4-82245be784fd.gif" alt="Preview of a snapshot testing result, showing the difference between the expected and actual images." width="150"/>
 
-Other ways of testing such as [Espresso (as can be seen here)](https://developer.android.com/training/testing/instrumented-tests) should also do the job.
+Other ways of testing such as using [Espresso (as can be seen here)](https://developer.android.com/training/testing/instrumented-tests) should also do the job.
 
 # Roadmap
 - Add [Compose](https://developer.android.com/jetpack/compose).
