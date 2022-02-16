@@ -2,11 +2,13 @@
 
 # Table of contents
 1. [Introduction](#introduction)
-2. [Structure](#structure)
-3. [Architecture](#architecture)
-4. [Implementation](#implementation)
-5. [Testing](#testing)
-6. [Roadmap](#roadmap)
+2. [Architecture](#architecture)
+    - [Structure](#structure)
+    - [Diagram](#diagram)
+    - [Stack](#stack)
+3. [Implementation](#implementation)
+    - [Tests](#tests)
+4. [Roadmap](#roadmap)
 
 # Introduction
 This is an Android showcase project based on Pokémon.
@@ -18,7 +20,8 @@ The main goals of this project were to:
 I chose to use Pokémon as an example because it was the perfect case of a multi-brand theme usage.</br>
 Since the first generation of games were released, they always used the idea of creating basically one base game, but with different themed variants for the game's boxes and cartridges, as well as some other contents.
 
-# Structure
+# Architecture
+## Structure
 ```
 .
 ├── app                   # Project sample (android-application)
@@ -34,12 +37,18 @@ Since the first generation of games were released, they always used the idea of 
         └── yellow
 ```
 
-# Architecture
+## Diagram
 <img src="https://user-images.githubusercontent.com/35379633/152466454-28843616-3743-4874-9e6e-7f9d1844f28d.gif" alt="Project's architecture diagram"/>
 
 For the purpose of creating an actual sample, the project presents just one **android-application** module, which implements all four themes.
 
 In the image above, it is presented a scenario where multiple apps were meant to be created, each one of them with its respective theme. In a real project, this would most likely be the case.
+
+## Stack
+- [Kotlin](https://developer.android.com/kotlin)
+- [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- [Paparazzi](https://github.com/cashapp/paparazzi)
+- [TestParameterInjector](https://github.com/google/TestParameterInjector)
 
 # Implementation
 This is a multi-module project and each piece have its own responsibility.
@@ -83,7 +92,7 @@ Creates an [Android custom view](https://developer.android.com/guide/topics/ui/c
     android:startColor="?attr/colorPrimaryVariant" />
 ```
 
-# Testing
+## Tests
 Since one of the goals of this project was to try [Paparazzi](https://github.com/cashapp/paparazzi), only snapshot testing was explored.
 
 <img src="https://user-images.githubusercontent.com/35379633/152630899-937149dc-f49e-4aa8-90c4-82245be784fd.gif" alt="Preview of a snapshot testing result, showing the difference between the expected and actual images." width="150"/>
