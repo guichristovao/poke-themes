@@ -33,6 +33,4 @@ android {
 
 dependencies {
     implementation(project(":theme:base"))
-
-    implementation(Libs.Google.material)
 }

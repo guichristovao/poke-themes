@@ -43,11 +43,7 @@ dependencies {
 
     implementation(Libs.AndroidX.core)
     implementation(Libs.AndroidX.appCompat)
-    implementation(Libs.Google.material)
     implementation(Libs.AndroidX.constraintLayout)
 
     testImplementation(Libs.JUnit.junit)
-
-    androidTestImplementation(Libs.AndroidX.Test.junit)
-    androidTestImplementation(Libs.AndroidX.Test.espresso)
 }
