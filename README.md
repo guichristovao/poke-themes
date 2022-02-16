@@ -46,7 +46,8 @@ In the image above, it is presented a scenario where multiple apps were meant to
 
 ## Stack
 - [Kotlin](https://developer.android.com/kotlin)
-- [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+    - [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+### Testing
 - [Paparazzi](https://github.com/cashapp/paparazzi)
 - [TestParameterInjector](https://github.com/google/TestParameterInjector)
 
