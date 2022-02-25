@@ -101,5 +101,5 @@ Since one of the goals of this project was to try [Paparazzi](https://github.com
 Other ways of testing such as using [Espresso (as can be seen here)](https://developer.android.com/training/testing/instrumented-tests) should also do the job.
 
 # Roadmap
-- Add [Compose](https://developer.android.com/jetpack/compose).
-- Add [GitHub Actions](https://github.com/features/actions).
+- [ ] [Compose](https://developer.android.com/jetpack/compose).
+- [ ] [GitHub Actions](https://github.com/features/actions).
